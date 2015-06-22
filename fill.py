@@ -38,7 +38,7 @@ def twitterreq(url, method, parameters):
     if http_method == "POST":
         encoded_post_data = req.to_postdata()
     else:
-        encoded_post_data = None
+        encoded_post_data =None
         url = req.to_url()
 
     opener = urllib.OpenerDirector()
