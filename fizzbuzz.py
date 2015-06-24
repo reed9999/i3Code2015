@@ -1,12 +1,12 @@
-for num in range(1,101):
-    if num % 5 == 0 and num % 3 == 0:
+for number in range(1,101):
+    if number % 5 == 0 and number % 3 == 0:
         print "FizzBuzz"
-    elif num % 3 == 0:
+    elif number % 3 == 0:
         print "Fizz"
-    elif num % 5 == 0:
+    elif number % 5 == 0:
         print "Buzz"
     else:
-        print num
+        print number
         
         
 # IN JAVA
